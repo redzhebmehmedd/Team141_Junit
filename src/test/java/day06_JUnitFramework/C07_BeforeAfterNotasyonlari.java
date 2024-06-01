@@ -7,11 +7,10 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 
-public class C07_BeforAfterNotasyonlari {
+public class C07_BeforeAfterNotasyonlari {
     WebDriver driver;
 
     //Eger siradan bir method'un her test method'undan once calismasini isterseniz
