@@ -47,6 +47,8 @@ public class C06_DropDownmenu extends TestBase {
         int actualOptionSayisi = tumOptionElementleriList.size();
 
         Assertions.assertEquals(expectedOptionSayisi,actualOptionSayisi);
+        // teste basarili olmaz cünkü actualOptions boyutu 3
+        // ancak bizden test boyutu olarak (expectedoption) 4 istedigi icin .
 
         ReusableMethods.bekle(3);
 
